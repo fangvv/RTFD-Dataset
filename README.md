@@ -1,13 +1,29 @@
-# Railway-Track-Fault-Detection-Dataset
+# 钢轨缺陷检测数据集
 
-We collect images for this dataset from the following sites
+本数据集主要来源于本课题组任中伟同学搜集整理的钢轨缺陷图像数据，主要的来源包括
 
  - [Railway Track Fault Detection](https://www.kaggle.com/salmaneunus/railway-track-fault-detection)
  - [RSDDs dataset](http://icn.bjtu.edu.cn/Visint/resources/RSDDs.aspx)
- - Google image search
+ - Google搜索
 
-You can access this dataset of 224x224 images from: https://gitee.com/fangvv/Railway-Track-Fault-Detection-Dataset
+----------
 
-You can also access the original files from: https://pan.baidu.com/s/1WY3hzjggW2Qz-p7DezdiVQ with password: bjtu
+主要的缺陷类型包括：
 
-Contact: Zhongwei Ren (18281272@bjtu.edu.cn) and Weiwei Fang (fangww@bjtu.edu.cn)
+![image](types.png)
+
+所有图像均是224x224大小，推荐使用的神经网络模型为ResNet18，可达93%的预测精度。
+
+如您需要原始文件，请访问[百度网盘地址](https://pan.baidu.com/s/1WY3hzjggW2Qz-p7DezdiVQ)，密码bjtu 。
+
+----------
+
+注1：RailwayDefectDetectionDatabase V2这个压缩包里的数据对应的是我们铁道学报论文实验，在原有V1版本数据集上进行了部分扩充，特此说明。
+
+注2：另外，从[阿莫电子论坛](https://www.amobbs.com/thread-5749919-1-1.html)搜集到铁轨裂纹数据集，分享如下：
+
+链接: https://pan.baidu.com/s/1rMMUj4A2wNCWwmFsJIaTiQ 提取码: 2cxe
+
+联系人：任中伟 (18281272@bjtu.edu.cn) 方维维 (fangww@bjtu.edu.cn)
+
+致谢：本数据集及相关的研究受北京市自然科学基金-丰台轨道交通前沿研究联合基金(L191019)资助。
